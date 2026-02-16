@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ol {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -12,13 +17,19 @@
     </header>
     <main>
         <form action="./submit.html">
-            <label for="username">username</label>
-            <input type="text" name="username" id="username">
-            <br>
-            <label for="email">email</label>
-            <input type="email" name="email" id="email">
-            <br>
-            <button type="submit">Send</button>
+            <ol>
+                <li>
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username">
+                </li>
+                <li>
+                    <label for="email">email</label>
+                    <input type="email" name="email" id="email">
+                </li>
+                <li>
+                    <button type="submit">Send</button>
+                </li>
+            </ol>
         </form>
     </main>
     <footer>
